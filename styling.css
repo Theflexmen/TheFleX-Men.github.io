@@ -1,29 +1,36 @@
 @charset "utf-8";
-/* CSS Document */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+@import url("BebasNeue/stylesheet.css");
 body {
-	background-color: black
+	background-color: black;
+}
+.container {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	color: #FF5757;
+	transform: translate(-50%, -50%);
+	font-size: 250%;
+	font-style: normal;
+	font-weight: 400;
+	font-family: BebasNeue;
+}
+.soon {
+	margin-left: 25%
+%
+%;
+	margin-left: 23%;
+}
+
+#flex {
+		-webkit-animation: rotation 10s infinite linear;
+	margin-left: 15%;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
