@@ -7,7 +7,7 @@ body {
 	position: fixed; /* or absolute */
 	top: 50%;
 	left: 50%;
-	color: #FF5757;
+	color: #FF022D;
 	transform: translate(-50%, -50%);
 	font-size: 250%;
 	font-style: normal;
@@ -19,6 +19,7 @@ body {
 %
 %;
 	margin-left: 23%;
+	margin-top: -50px;
 }
 
 #flex {
@@ -33,4 +34,7 @@ body {
 		to {
 				-webkit-transform: rotate(359deg);
 		}
+}
+.fm {
+	font-size: 100px;
 }
