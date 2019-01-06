@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("assets/BebasNeue/stylesheet.css");
+body {
+	background-color: black;
+}
+.container {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	color: #FF022D;
+	transform: translate(-50%, -50%);
+	font-size: 250%;
+	font-style: normal;
+	font-weight: 400;
+	font-family: BebasNeue;
+}
+.soon {
+	margin-left: 25%;
+	margin-left: 18%;
+	margin-top: -50px;
+	font-size: 150%;
+}
+.fm {
+	font-size: 250%;
+}
+
+
+#flex {
+	-webkit-animation: rotation 10s infinite linear;
+	margin-left: 22%;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
