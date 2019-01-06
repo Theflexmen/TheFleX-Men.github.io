@@ -1,6 +1,27 @@
 <!doctype html>
 <html>
 <head>
+
+<style type="text/css"> 
+  .mobileShow {display: none;} 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+</style>
+<style type="text/css">
+  .mobileHide { display: inline; } 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+     .mobileHide { display: none;}
+  }
+</style>
 <meta charset="utf-8">
 <title>The FleX-Men</title>
 <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico?">
@@ -9,10 +30,22 @@
 </head>
 
 <body>
+<div class="mobileHide">
 <div class="video_contain">
  <video autoplay muted loop id="myVideo">
   <source src="assets/Neonflex.mp4" type="video/mp4">
  </video>
+</div>
+</div>
+
+<div class="mobileShow">
+	<div class="container">
+	<img id="flex" src="assets/flexicon.png">
+		<br><div class="fm">THE FLEX-MEN</div>
+		<br>
+			<div class="soon">Coming Soon<sup>TM</sup>
+			</div>
+	</div>
 </div>
 </body>
 </html>
